@@ -3,19 +3,26 @@
 import { motion, useReducedMotion } from "framer-motion";
 import Image from "next/image";
 
-/** Écrans réels de l'application (public/app-screens/). */
+/** Écrans réels de l'application — espace donateur (public/app-screens/user/). */
 const screens = [
-  { src: "/app-screens/home.jpg", alt: "Écran d'accueil Muz'Deen" },
-  { src: "/app-screens/don.jpg", alt: "Écran de don" },
-  { src: "/app-screens/mosque.jpg", alt: "Fiche mosquée" },
-  { src: "/app-screens/qibla.jpg", alt: "Boussole Qibla" },
-  { src: "/app-screens/accueil.jpg", alt: "Connexion à l'application" },
-  { src: "/app-screens/horaire.jpg", alt: "Horaires de prière" },
-  { src: "/app-screens/duaa.jpg", alt: "Invocations (Duaa)" },
+  { src: "/app-screens/user/connexion.jpg", alt: "Connexion à l'application" },
+  { src: "/app-screens/user/accueil.png", alt: "Écran d'accueil" },
+  { src: "/app-screens/user/home.jpg", alt: "Mode découverte" },
+  { src: "/app-screens/user/idmosquee.jpg", alt: "Fiche organisation" },
+  { src: "/app-screens/user/campa.jpg", alt: "Campagne de collecte" },
+  { src: "/app-screens/user/don.jpg", alt: "Écran de don" },
+  { src: "/app-screens/user/horaire.jpg", alt: "Horaires de prière" },
+  { src: "/app-screens/user/qibla.png", alt: "Boussole Qibla" },
+  { src: "/app-screens/user/duaa.jpg", alt: "Invocations (Duaa)" },
+  { src: "/app-screens/user/IMG_8530.png", alt: "Écran de l'application Muz'Deen" },
+  { src: "/app-screens/user/IMG_8531.png", alt: "Écran de l'application Muz'Deen" },
+  { src: "/app-screens/user/IMG_8533.png", alt: "Écran de l'application Muz'Deen" },
+  { src: "/app-screens/user/IMG_8534.png", alt: "Écran de l'application Muz'Deen" },
 ];
 
-const columnA = [screens[0], screens[1], screens[2], screens[3]];
-const columnB = [screens[4], screens[5], screens[6], screens[0]];
+const half = Math.ceil(screens.length / 2);
+const columnA = screens.slice(0, half);
+const columnB = screens.slice(half);
 
 function Phone({ src, alt }: { src: string; alt: string }) {
   return (

@@ -46,7 +46,7 @@ export function Pricing() {
           <SectionHeader
             eyebrow="Le modèle économique"
             title="Vous ne payez que si vous collectez."
-            text="Pas d'abonnement, pas de frais cachés. Une commission de 3% uniquement sur les dons reçus."
+            text="Pas d'abonnement, pas de frais cachés. Une commission de 5% uniquement sur les dons reçus."
             tone="dark"
           />
           <Stagger className="mt-8 grid gap-3">

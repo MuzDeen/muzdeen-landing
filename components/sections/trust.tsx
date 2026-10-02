@@ -76,7 +76,7 @@ export function Trust() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
-            Muz&apos;Deen prélève automatiquement 3% de commission au passage — et ne détient jamais l&apos;argent des donateurs.
+            Muz&apos;Deen prélève automatiquement 5% de commission au passage — et ne détient jamais l&apos;argent des donateurs.
           </motion.p>
         </motion.div>
 

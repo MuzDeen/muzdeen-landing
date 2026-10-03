@@ -1,6 +1,6 @@
 # Conditions Générales d'Utilisation
 
-**Dernière mise à jour : 2 octobre 2026**
+**Dernière mise à jour : 3 octobre 2026**
 
 Les présentes Conditions Générales d'Utilisation (les « CGU ») régissent l'accès et l'utilisation de l'application mobile **Muz'Deen** (l'« Application ») éditée par **Muz'Deen** (l'« Éditeur »). En créant un compte ou en utilisant l'Application, vous acceptez sans réserve les présentes CGU.
 
@@ -33,11 +33,11 @@ Muz'Deen est une plateforme qui met en relation des donateurs avec des mosquées
 
 4.1. **Prestataire de paiement.** Les paiements sont traités par **Stripe Payments Europe, Ltd.** via la solution Stripe Connect. Muz'Deen n'a jamais accès aux numéros complets de carte bancaire, qui sont collectés et stockés directement par Stripe selon les normes PCI-DSS.
 
-4.2. **Reversement.** Les dons sont reversés à l'Organisation bénéficiaire via son compte Stripe connecté, après déduction des frais décrits ci-dessous.
+4.2. **Reversement.** Les dons sont reversés à l'Organisation bénéficiaire via son compte Stripe connecté, après déduction de la commission et des frais de paiement décrits ci-dessous. Le Donateur paie exactement le montant qu'il a choisi.
 
-4.3. **Commission de la plateforme.** Muz'Deen prélève une commission de **5 %** sur chaque don pour assurer le fonctionnement, la sécurité et le développement de la plateforme. Cette commission est déduite du montant reversé à l'Organisation et n'est pas ajoutée au montant débité au Donateur.
+4.3. **Commission de la plateforme.** Muz'Deen prélève une commission de **5 %** sur chaque don pour assurer le fonctionnement, la sécurité et le développement de la plateforme. Cette commission est déduite du montant reversé à l'Organisation et n'est pas ajoutée au montant débité au Donateur. Les frais de traitement du paiement facturés par Stripe (à titre indicatif, 1,5 % + 0,25 € pour une carte européenne) sont également déduits du montant reversé à l'Organisation.
 
-4.4. **Contribution volontaire.** Le Donateur peut, à sa seule initiative, ajouter une contribution facultative de soutien à Muz'Deen (par défaut 0,30 €), affichée de manière transparente avant le paiement et désactivable à tout moment.
+4.4. **Contribution volontaire.** Le Donateur peut, à sa seule initiative, ajouter une contribution facultative de soutien à Muz'Deen (montant au choix, 5 € maximum). Cette contribution n'est jamais présélectionnée, s'ajoute au don sans réduire le montant reversé à l'Organisation, et est affichée de manière transparente avant le paiement.
 
 4.5. **Dons récurrents.** Les dons récurrents sont mis en œuvre via des abonnements Stripe. Le Donateur peut les consulter et les **résilier à tout moment** depuis son profil, sans frais ni justification. La résiliation prend effet pour les échéances futures et n'ouvre pas droit au remboursement des prélèvements déjà effectués.
 

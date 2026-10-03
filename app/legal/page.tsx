@@ -8,7 +8,7 @@ import { getLegalDocs } from "@/lib/legal";
 export const metadata: Metadata = {
   title: "Documents légaux",
   description:
-    "Conditions Générales d'Utilisation, Politique de confidentialité, Politique de cookies et Mentions légales de Muz'Deen.",
+    "Conditions Générales d'Utilisation, Politique de confidentialité, Politique de cookies et Mentions légales de Mweema.",
   alternates: { canonical: "/legal" },
   robots: { index: true, follow: true },
 };
@@ -41,7 +41,7 @@ export default function LegalIndexPage() {
           </h1>
           <p className="mt-6 max-w-2xl leading-7 text-[color:var(--ui-muted)]">
             Retrouvez l&apos;ensemble des documents qui encadrent l&apos;utilisation de
-            Muz&apos;Deen. Chaque document dispose d&apos;une adresse stable, librement
+            Mweema. Chaque document dispose d&apos;une adresse stable, librement
             consultable et partageable.
           </p>
 

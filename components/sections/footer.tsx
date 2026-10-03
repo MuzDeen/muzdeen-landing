@@ -56,7 +56,7 @@ export function Footer() {
           <div>
             <p className="font-black text-[color:var(--ui-text)]">Contact</p>
             <div className="mt-3 grid gap-2 text-sm text-[color:var(--ui-muted)]">
-              <a className="hover:text-[color:var(--ui-accent)]" href="mailto:contact@muzdeen.com">contact@muzdeen.com</a>
+              <a className="hover:text-[color:var(--ui-accent)]" href="mailto:contact@mweema.com">contact@mweema.com</a>
               <Link className="hover:text-[color:var(--ui-accent)]" href="/#demo">Inscrire mon organisation</Link>
             </div>
           </div>
@@ -71,7 +71,7 @@ export function Footer() {
         </div>
       </div>
       <div className="section-shell mt-10 border-t border-[color:var(--ui-line)] pt-6 text-sm text-[color:var(--ui-muted)]">
-        © 2026 Muz&apos;Deen. Tous droits réservés.
+        © 2026 Mweema. Tous droits réservés.
       </div>
     </footer>
   );

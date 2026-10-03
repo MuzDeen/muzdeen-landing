@@ -94,7 +94,7 @@ export function SiteHeader() {
               </a>
               <a
                 className="inline-flex min-h-12 items-center justify-center rounded-full border border-[color:var(--ui-line)] bg-[color:var(--ui-surface-soft)] px-5 text-sm font-black text-[color:var(--ui-accent)]"
-                href="mailto:contact@muzdeen.com"
+                href="mailto:contact@mweema.com"
                 onClick={() => setIsOpen(false)}
               >
                 Contacter l&apos;equipe

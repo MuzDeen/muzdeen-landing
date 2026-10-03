@@ -1,6 +1,6 @@
 <div align="center">
 
-# Muz'Deen — Landing Page
+# Mweema — Landing Page
 
 **Pour ici et l'au-delà.**
 
@@ -55,4 +55,4 @@ Intégrations futures possibles : route API Next.js, Resend, CRM, notification e
 
 Pages `/privacy` (politique de confidentialité) et `/terms` (mentions légales) basées sur les modèles légaux du projet — **à faire relire par un professionnel du droit avant mise en production**.
 
-<div align="center"><sub>© Muz'Deen — Pour ici et l'au-delà.</sub></div>
+<div align="center"><sub>© Mweema — Pour ici et l'au-delà.</sub></div>

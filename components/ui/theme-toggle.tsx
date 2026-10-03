@@ -16,7 +16,7 @@ export function ThemeToggle() {
   function toggleTheme() {
     const next = theme === "dark" ? "light" : "dark";
     document.documentElement.dataset.theme = next;
-    localStorage.setItem("muzdeen-theme", next);
+    localStorage.setItem("mweema-theme", next);
     setTheme(next);
   }
 

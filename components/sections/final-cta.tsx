@@ -16,7 +16,7 @@ export function FinalCta() {
       <div className="section-shell">
         <SectionHeader
           eyebrow="On commence ?"
-          title="Deux façons de rejoindre Muz'Deen."
+          title="Deux façons de rejoindre Mweema."
           text="Que vous soyez donateur ou responsable d'organisation, votre place est ici."
           align="center"
         />

@@ -31,7 +31,7 @@ export function AppMockup() {
         <div className="overflow-hidden rounded-[1.9rem] bg-[color:var(--ui-bg)]">
           <div className="flex items-center justify-between bg-[color:var(--ui-accent)] px-5 pb-5 pt-6 text-[color:var(--ui-on-primary)]">
             <div>
-              <p className="text-xs text-[color:var(--ui-mint)]">Muz&apos;Deen</p>
+              <p className="text-xs text-[color:var(--ui-mint)]">Mweema</p>
               <p className="text-lg font-black">Soutenir Al Noor</p>
             </div>
             <Landmark className="h-6 w-6" />

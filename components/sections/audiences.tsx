@@ -32,7 +32,7 @@ export function Audiences() {
           {/* Carte d'accroche */}
           <TiltCard className="flex flex-col justify-between rounded-[1.75rem] border border-[color:var(--ui-mint)] bg-[color:var(--ui-accent)] p-7 text-[color:var(--ui-on-primary)] shadow-[0_28px_70px_color-mix(in_srgb,var(--ui-shadow)_22%,transparent)]">
             <p className="text-lg font-black leading-snug">
-              Votre organisation a une mission. Muz&apos;Deen lui donne les moyens de la financer.
+              Votre organisation a une mission. Mweema lui donne les moyens de la financer.
             </p>
             <a
               href="#demo"

@@ -1,6 +1,6 @@
 # Documents légaux — fonctionnement, déploiement & resynchronisation
 
-Section publique exposant les 4 documents légaux de Muz'Deen, exigés par
+Section publique exposant les 4 documents légaux de Mweema, exigés par
 Apple et Google avant publication sur les stores.
 
 ## URLs publiques
@@ -8,10 +8,10 @@ Apple et Google avant publication sur les stores.
 | Document                         | URL                          | Version |
 | -------------------------------- | ---------------------------- | ------- |
 | Index (liste des documents)      | `/legal`                     | —       |
-| Conditions Générales d'Utilisation | `/legal/cgu`               | 1.1.0   |
-| Politique de confidentialité     | `/legal/confidentialite`     | 1.1.0   |
-| Politique de cookies             | `/legal/cookies`             | 1.1.0   |
-| Mentions légales                 | `/legal/mentions-legales`    | 1.1.1   |
+| Conditions Générales d'Utilisation | `/legal/cgu`               | 1.4.0   |
+| Politique de confidentialité     | `/legal/confidentialite`     | 1.2.0   |
+| Politique de cookies             | `/legal/cookies`             | 1.2.0   |
+| Mentions légales                 | `/legal/mentions-legales`    | 1.2.0   |
 
 Chaque page expose `<title>` + meta description, un `canonical`, et autorise
 l'indexation (`robots: index, follow`). Un lien « Documents légaux » est présent
@@ -42,8 +42,8 @@ npm run sync:legal      # copie backend/legal/*.md + manifest.json → content/l
 npm run build           # régénère les pages statiques
 ```
 
-Le script suppose l'arborescence `…/MuzDeen/app/backend/legal` à côté de
-`…/MuzDeen/landing`. Si le backend est ailleurs, précisez le chemin :
+Le script suppose l'arborescence `…/Mweema/app/backend/legal` à côté de
+`…/Mweema/landing`. Si le backend est ailleurs, précisez le chemin :
 
 ```bash
 LEGAL_SRC=/chemin/vers/backend/legal npm run sync:legal

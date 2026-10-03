@@ -3,13 +3,14 @@
 import { motion, useReducedMotion } from "framer-motion";
 import Image from "next/image";
 
-/** Écrans réels de l'espace manager (public/app-screens/manager_*). */
+/** Écrans réels de l'espace manager (public/app-screens/manager/). */
 const screens = [
-  { src: "/app-screens/manager_accueil.jpg", alt: "Tableau de bord manager" },
-  { src: "/app-screens/manager_projet.jpg", alt: "Gestion des projets" },
-  { src: "/app-screens/manager_qrcode.jpg", alt: "Génération de QR codes" },
-  { src: "/app-screens/manager_affiche.jpg", alt: "Affiche de campagne" },
-  { src: "/app-screens/manager_template.jpg", alt: "Modèle de support" },
+  { src: "/app-screens/manager/IMG_8535.jpg", alt: "Espace manager Muz'Deen" },
+  { src: "/app-screens/manager/IMG_8536.png", alt: "Espace manager Muz'Deen" },
+  { src: "/app-screens/manager/IMG_8537.png", alt: "Espace manager Muz'Deen" },
+  { src: "/app-screens/manager/IMG_8538.png", alt: "Espace manager Muz'Deen" },
+  { src: "/app-screens/manager/IMG_8539.png", alt: "Espace manager Muz'Deen" },
+  { src: "/app-screens/manager/IMG_8540.png", alt: "Espace manager Muz'Deen" },
 ];
 
 function Phone({ src, alt }: { src: string; alt: string }) {

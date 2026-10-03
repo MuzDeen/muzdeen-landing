@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { AnimatedBackground } from "@/components/animated-background";
 import "./globals.css";
 
 const siteUrl = "https://muzdeen.com";
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Muz'Deen aide les mosquees a digitaliser les dons via QR code, NFC et mobile, avec une experience rapide, fiable et spirituelle.",
   openGraph: {
-    title: "Muz'Deen - For Here and Beyond",
+    title: "Muz'Deen - Pour ici et l'au-delà",
     description:
       "La plateforme moderne pour soutenir les mosquees en quelques secondes, sans friction et sans compte obligatoire.",
     url: siteUrl,
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Muz'Deen - For Here and Beyond",
+    title: "Muz'Deen - Pour ici et l'au-delà",
     description:
       "Digitalisez les dons de votre mosquee avec une experience QR code, NFC et mobile.",
   },
@@ -52,7 +53,10 @@ export default function RootLayout({
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body>{children}</body>
+      <body>
+        <AnimatedBackground />
+        {children}
+      </body>
     </html>
   );
 }

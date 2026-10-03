@@ -63,8 +63,9 @@ export function Footer() {
           <div>
             <p className="font-black text-[color:var(--ui-text)]">Légal</p>
             <div className="mt-3 grid gap-2 text-sm text-[color:var(--ui-muted)]">
-              <Link className="hover:text-[color:var(--ui-accent)]" href="/privacy">Confidentialité</Link>
-              <Link className="hover:text-[color:var(--ui-accent)]" href="/terms">Mentions légales</Link>
+              <Link className="hover:text-[color:var(--ui-accent)]" href="/legal">Documents légaux</Link>
+              <Link className="hover:text-[color:var(--ui-accent)]" href="/legal/confidentialite">Confidentialité</Link>
+              <Link className="hover:text-[color:var(--ui-accent)]" href="/legal/mentions-legales">Mentions légales</Link>
             </div>
           </div>
         </div>

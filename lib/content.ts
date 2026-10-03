@@ -55,8 +55,8 @@ export const hero = {
   secondaryCta: { label: "Inscrire mon organisation", href: "#demo" },
   stats: [
     { value: "2€", label: "Don minimum, pour rester accessible à tous" },
-    { value: "3%", label: "De commission, uniquement sur les dons reçus" },
-    { value: "0€", label: "Qui transite par Muz'Deen : tout va à l'organisation" },
+    { value: "5%", label: "De commission, uniquement sur les dons reçus" },
+    { value: "0€", label: "D'abonnement : vous ne payez que si vous collectez" },
   ],
 };
 
@@ -123,7 +123,7 @@ export const moneyFlow: FlowNode[] = [
 
 export const trustItems: FlowNode[] = [
   { icon: ShieldCheck, title: "Double vérification", text: "L'organisation est validée par l'équipe Muz'Deen, puis par Stripe (identité, RIB) avant de pouvoir recevoir le moindre don." },
-  { icon: BanknoteArrowUp, title: "L'argent ne transite jamais", text: "Les fonds vont directement de Stripe au compte de l'organisation. Muz'Deen ne détient jamais l'argent des donateurs." },
+  { icon: BanknoteArrowUp, title: "Jamais sur nos comptes", text: "Stripe encaisse le don et le reverse automatiquement sur le compte de l'organisation. Les fonds ne passent jamais par le compte bancaire de Muz'Deen." },
   { icon: LockKeyhole, title: "Paiements sécurisés", text: "Stripe gère l'intégralité des paiements selon les standards bancaires les plus exigeants." },
   { icon: ReceiptText, title: "Transparence totale", text: "Reçu instantané pour le donateur, suivi en temps réel et objectifs affichés pour la communauté." },
 ];
@@ -138,13 +138,13 @@ export const pricing = {
     // Répartition illustrative pour un don de 10€.
     breakdown: [
       { label: "Frais Stripe", amount: 0.4, note: "Traitement du paiement", tone: "muted" as const },
-      { label: "Commission Muz'Deen", amount: 0.3, note: "3% du don", tone: "accent" as const },
-      { label: "Reçu par l'organisation", amount: 9.3, note: "Versé directement", tone: "primary" as const },
+      { label: "Commission Muz'Deen", amount: 0.5, note: "5% du don", tone: "accent" as const },
+      { label: "Reçu par l'organisation", amount: 9.1, note: "Versé directement", tone: "primary" as const },
     ],
   },
   points: [
     { title: "Aucun abonnement", text: "Pas de frais fixes, pas d'engagement. Vous ne payez que si vous collectez." },
-    { title: "3% de commission", text: "Uniquement sur les dons reçus. C'est notre seule source de revenus." },
+    { title: "5% de commission", text: "Uniquement sur les dons reçus. Les donateurs peuvent aussi, s'ils le souhaitent, soutenir la plateforme." },
     { title: "Don minimum 2€", text: "Un choix délibéré et militant : un don de 2€ est aussi noble qu'un don de 200€." },
   ],
 };
@@ -204,12 +204,12 @@ export const faqs = [
   {
     question: "Comment fonctionne la commission ?",
     answer:
-      "Muz'Deen prélève 3% sur chaque don reçu, automatiquement. Il n'y a aucun abonnement ni frais fixe : vous ne payez que si vous collectez. Les frais Stripe s'appliquent en plus, comme pour tout paiement par carte.",
+      "Muz'Deen prélève 5% sur chaque don reçu, automatiquement. Il n'y a aucun abonnement ni frais fixe : vous ne payez que si vous collectez. Les frais de paiement Stripe sont aussi déduits, comme pour tout paiement par carte. Le donateur, lui, paie exactement le montant qu'il a choisi.",
   },
   {
     question: "Muz'Deen détient-il l'argent des dons ?",
     answer:
-      "Jamais. Les fonds vont directement de Stripe au compte de l'organisation. Muz'Deen n'est ni une banque ni un établissement de paiement : l'argent ne transite jamais par nos comptes.",
+      "Non. Stripe encaisse le paiement et reverse automatiquement le don, frais et commission déduits, sur le compte Stripe de l'organisation. Muz'Deen n'est ni une banque ni un établissement de paiement : les dons ne passent jamais par notre compte bancaire.",
   },
   {
     question: "Quelles organisations peuvent rejoindre Muz'Deen ?",

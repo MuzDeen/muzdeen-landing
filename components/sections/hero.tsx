@@ -37,16 +37,6 @@ export function Hero() {
 
         <div className="grid items-center gap-10 pt-12 md:gap-14 md:pt-16 lg:grid-cols-[1.05fr_0.95fr] lg:pt-20">
           <div>
-            <motion.div
-              className="mb-5 inline-flex items-center gap-2 rounded-full border border-[color:var(--ui-mint)] bg-[color:var(--ui-surface-raised)] px-4 py-2 text-sm font-bold text-[color:var(--ui-accent)] shadow-sm md:mb-6"
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, ease: EASE }}
-            >
-              <span className="h-2 w-2 rounded-full bg-[color:var(--ui-mint)]" />
-              {hero.badge}
-            </motion.div>
-
             <h1 className="text-balance text-[3.15rem] font-black leading-[0.92] text-[color:var(--ui-text)] sm:text-6xl md:text-7xl">
               <RevealLines lines={hero.titleLines} />
             </h1>

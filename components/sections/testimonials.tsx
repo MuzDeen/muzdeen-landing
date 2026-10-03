@@ -13,7 +13,7 @@ export function Testimonials() {
         <SectionHeader
           eyebrow="Preuve sociale"
           title="Bientôt, leurs mots ici."
-          text="Muz'Deen ouvre ses premières organisations pilotes. Les témoignages affichés ci-dessous sont des emplacements réservés — nous ne publions aucun avis inventé."
+          text="Mweema ouvre ses premières organisations pilotes. Les témoignages affichés ci-dessous sont des emplacements réservés — nous ne publions aucun avis inventé."
           align="center"
         />
 

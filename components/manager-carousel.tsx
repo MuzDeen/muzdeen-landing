@@ -5,12 +5,12 @@ import Image from "next/image";
 
 /** Écrans réels de l'espace manager (public/app-screens/manager/). */
 const screens = [
-  { src: "/app-screens/manager/IMG_8535.jpg", alt: "Espace manager Muz'Deen" },
-  { src: "/app-screens/manager/IMG_8536.png", alt: "Espace manager Muz'Deen" },
-  { src: "/app-screens/manager/IMG_8537.png", alt: "Espace manager Muz'Deen" },
-  { src: "/app-screens/manager/IMG_8538.png", alt: "Espace manager Muz'Deen" },
-  { src: "/app-screens/manager/IMG_8539.png", alt: "Espace manager Muz'Deen" },
-  { src: "/app-screens/manager/IMG_8540.png", alt: "Espace manager Muz'Deen" },
+  { src: "/app-screens/manager/IMG_8535.jpg", alt: "Espace manager Mweema" },
+  { src: "/app-screens/manager/IMG_8536.png", alt: "Espace manager Mweema" },
+  { src: "/app-screens/manager/IMG_8537.png", alt: "Espace manager Mweema" },
+  { src: "/app-screens/manager/IMG_8538.png", alt: "Espace manager Mweema" },
+  { src: "/app-screens/manager/IMG_8539.png", alt: "Espace manager Mweema" },
+  { src: "/app-screens/manager/IMG_8540.png", alt: "Espace manager Mweema" },
 ];
 
 function Phone({ src, alt }: { src: string; alt: string }) {
@@ -34,7 +34,7 @@ export function ManagerCarousel() {
         maskImage: "linear-gradient(to right, transparent, #000 8%, #000 92%, transparent)",
         WebkitMaskImage: "linear-gradient(to right, transparent, #000 8%, #000 92%, transparent)",
       }}
-      aria-label="Aperçu de l'espace manager Muz'Deen"
+      aria-label="Aperçu de l'espace manager Mweema"
     >
       <motion.div
         className="flex w-max gap-5 will-change-transform"

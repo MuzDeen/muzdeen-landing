@@ -52,7 +52,7 @@ export function ProblemSolution() {
           {/* APRÈS */}
           <Stagger className="grid gap-3 rounded-[2rem] border border-[color:var(--ui-mint)] bg-[color:var(--ui-accent)] p-6 text-[color:var(--ui-on-primary)] shadow-[0_30px_80px_color-mix(in_srgb,var(--ui-shadow)_22%,transparent)] md:p-7">
             <motion.p variants={staggerItem} className="mb-1 text-sm font-bold uppercase tracking-[0.16em] text-[color:var(--ui-mint)]">
-              Avec Muz&apos;Deen
+              Avec Mweema
             </motion.p>
             {afterItems.map((item) => (
               <motion.div variants={staggerItem} key={item.title} className="flex gap-3 rounded-2xl bg-[color:var(--ui-primary-overlay)] p-4 backdrop-blur">

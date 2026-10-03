@@ -1,8 +1,8 @@
 # Politique de cookies et traceurs
 
-**Dernière mise à jour : 20 juin 2026**
+**Dernière mise à jour : 3 octobre 2026**
 
-La présente Politique explique l'usage des cookies et technologies de stockage similaires dans l'application mobile **Muz'Deen**.
+La présente Politique explique l'usage des cookies et technologies de stockage similaires dans l'application mobile **Mweema**.
 
 ## 1. Qu'est-ce qu'un traceur ?
 
@@ -24,7 +24,7 @@ Ces traceurs sont indispensables au fonctionnement de l'Application et ne requi�
 
 ## 4. Ce que nous n'utilisons pas
 
-Muz'Deen **n'utilise pas** de cookies publicitaires, de traceurs de ciblage marketing ni de revente de données à des tiers à des fins commerciales.
+Mweema **n'utilise pas** de cookies publicitaires, de traceurs de ciblage marketing ni de revente de données à des tiers à des fins commerciales.
 
 ## 5. Gérer vos préférences
 
@@ -38,4 +38,4 @@ Les traceurs strictement nécessaires sont conservés le temps de la session ou 
 
 ## 7. Contact
 
-Pour toute question : **privacy@muzdeen.app**.
+Pour toute question : **privacy@mweema.app**.

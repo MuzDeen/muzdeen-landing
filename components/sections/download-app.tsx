@@ -36,7 +36,7 @@ export function DownloadApp() {
                 Votre soutien, à portée de main.
               </h2>
               <p className="mt-5 max-w-xl text-lg leading-8 opacity-90">
-                Scannez le QR code ou téléchargez Muz&apos;Deen sur l&apos;App Store et Google Play. Donnez en quelques secondes, suivez vos reçus et soutenez vos organisations.
+                Scannez le QR code ou téléchargez Mweema sur l&apos;App Store et Google Play. Donnez en quelques secondes, suivez vos reçus et soutenez vos organisations.
               </p>
               <StoreBadges className="mt-8" />
             </div>
@@ -50,7 +50,7 @@ export function DownloadApp() {
               transition={{ duration: 0.6, ease: EASE, delay: 0.2 }}
             >
               <div className="rounded-[1.75rem] bg-white p-4 shadow-xl">
-                <Image src={download.qr} alt="QR code de téléchargement de l'application Muz'Deen" width={200} height={200} className="h-44 w-44" />
+                <Image src={download.qr} alt="QR code de téléchargement de l'application Mweema" width={200} height={200} className="h-44 w-44" />
               </div>
               <p className="mt-4 text-center text-sm font-bold opacity-90">Scannez pour télécharger</p>
             </motion.div>

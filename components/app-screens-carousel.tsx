@@ -14,10 +14,10 @@ const screens = [
   { src: "/app-screens/user/horaire.jpg", alt: "Horaires de prière" },
   { src: "/app-screens/user/qibla.png", alt: "Boussole Qibla" },
   { src: "/app-screens/user/duaa.jpg", alt: "Invocations (Duaa)" },
-  { src: "/app-screens/user/IMG_8530.png", alt: "Écran de l'application Muz'Deen" },
-  { src: "/app-screens/user/IMG_8531.png", alt: "Écran de l'application Muz'Deen" },
-  { src: "/app-screens/user/IMG_8533.png", alt: "Écran de l'application Muz'Deen" },
-  { src: "/app-screens/user/IMG_8534.png", alt: "Écran de l'application Muz'Deen" },
+  { src: "/app-screens/user/IMG_8530.png", alt: "Écran de l'application Mweema" },
+  { src: "/app-screens/user/IMG_8531.png", alt: "Écran de l'application Mweema" },
+  { src: "/app-screens/user/IMG_8533.png", alt: "Écran de l'application Mweema" },
+  { src: "/app-screens/user/IMG_8534.png", alt: "Écran de l'application Mweema" },
 ];
 
 const half = Math.ceil(screens.length / 2);
@@ -74,7 +74,7 @@ export function AppScreensCarousel() {
         WebkitMaskImage:
           "linear-gradient(to bottom, transparent, #000 12%, #000 88%, transparent)",
       }}
-      aria-label="Aperçu de l'application Muz'Deen"
+      aria-label="Aperçu de l'application Mweema"
     >
       <div className="flex gap-5">
         <Column items={columnA} direction="up" duration={34} />

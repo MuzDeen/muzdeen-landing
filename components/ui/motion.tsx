@@ -10,7 +10,7 @@ import {
 } from "framer-motion";
 import { useRef } from "react";
 
-/** Courbe d'easing unique Muz'Deen — à réutiliser partout. */
+/** Courbe d'easing unique Mweema — à réutiliser partout. */
 export const EASE = [0.22, 1, 0.36, 1] as const;
 
 const fadeUp: Variants = {

@@ -2,11 +2,11 @@
 
 **Dernière mise à jour : 3 octobre 2026**
 
-Les présentes Conditions Générales d'Utilisation (les « CGU ») régissent l'accès et l'utilisation de l'application mobile **Muz'Deen** (l'« Application ») éditée par **Muz'Deen** (l'« Éditeur »). En créant un compte ou en utilisant l'Application, vous acceptez sans réserve les présentes CGU.
+Les présentes Conditions Générales d'Utilisation (les « CGU ») régissent l'accès et l'utilisation de l'application mobile **Mweema** (l'« Application ») éditée par **Mweema** (l'« Éditeur »). En créant un compte ou en utilisant l'Application, vous acceptez sans réserve les présentes CGU.
 
 ## 1. Objet
 
-Muz'Deen est une plateforme qui met en relation des donateurs avec des mosquées, associations et organisations à but cultuel ou humanitaire (les « Organisations ») afin de faciliter les dons en ligne de manière simple, sécurisée et transparente. L'Application permet notamment de :
+Mweema est une plateforme qui met en relation des donateurs avec des mosquées, associations et organisations à but cultuel ou humanitaire (les « Organisations ») afin de faciliter les dons en ligne de manière simple, sécurisée et transparente. L'Application permet notamment de :
 
 - découvrir des Organisations et leurs campagnes de collecte ;
 - effectuer des dons ponctuels ou récurrents ;
@@ -31,19 +31,19 @@ Muz'Deen est une plateforme qui met en relation des donateurs avec des mosquées
 
 ## 4. Dons et paiements
 
-4.1. **Prestataire de paiement.** Les paiements sont traités par **Stripe Payments Europe, Ltd.** via la solution Stripe Connect. Muz'Deen n'a jamais accès aux numéros complets de carte bancaire, qui sont collectés et stockés directement par Stripe selon les normes PCI-DSS.
+4.1. **Prestataire de paiement.** Les paiements sont traités par **Stripe Payments Europe, Ltd.** via la solution Stripe Connect. Mweema n'a jamais accès aux numéros complets de carte bancaire, qui sont collectés et stockés directement par Stripe selon les normes PCI-DSS.
 
 4.2. **Reversement.** Les dons sont reversés à l'Organisation bénéficiaire via son compte Stripe connecté, après déduction de la commission et des frais de paiement décrits ci-dessous. Le Donateur paie exactement le montant qu'il a choisi.
 
-4.3. **Commission de la plateforme.** Muz'Deen prélève une commission de **5 %** sur chaque don pour assurer le fonctionnement, la sécurité et le développement de la plateforme. Cette commission est déduite du montant reversé à l'Organisation et n'est pas ajoutée au montant débité au Donateur. Les frais de traitement du paiement facturés par Stripe (à titre indicatif, 1,5 % + 0,25 € pour une carte européenne) sont également déduits du montant reversé à l'Organisation.
+4.3. **Commission de la plateforme.** Mweema prélève une commission de **5 %** sur chaque don pour assurer le fonctionnement, la sécurité et le développement de la plateforme. Cette commission est déduite du montant reversé à l'Organisation et n'est pas ajoutée au montant débité au Donateur. Les frais de traitement du paiement facturés par Stripe (à titre indicatif, 1,5 % + 0,25 € pour une carte européenne) sont également déduits du montant reversé à l'Organisation.
 
-4.4. **Contribution volontaire.** Le Donateur peut, à sa seule initiative, ajouter une contribution facultative de soutien à Muz'Deen (montant au choix, 5 € maximum). Cette contribution n'est jamais présélectionnée, s'ajoute au don sans réduire le montant reversé à l'Organisation, et est affichée de manière transparente avant le paiement.
+4.4. **Contribution volontaire.** Le Donateur peut, à sa seule initiative, ajouter une contribution facultative de soutien à Mweema (montant au choix, 5 € maximum). Cette contribution n'est jamais présélectionnée, s'ajoute au don sans réduire le montant reversé à l'Organisation, et est affichée de manière transparente avant le paiement.
 
 4.5. **Dons récurrents.** Les dons récurrents sont mis en œuvre via des abonnements Stripe. Le Donateur peut les consulter et les **résilier à tout moment** depuis son profil, sans frais ni justification. La résiliation prend effet pour les échéances futures et n'ouvre pas droit au remboursement des prélèvements déjà effectués.
 
 4.6. **Absence de contrepartie et de rétractation.** Un don est un acte de générosité sans contrepartie. Compte tenu de la nature des dons, le droit de rétractation ne s'applique pas. Une demande de remboursement pour erreur manifeste peut toutefois être adressée à l'Éditeur, qui l'examinera de bonne foi.
 
-4.7. **Reçus fiscaux.** L'émission d'éventuels reçus fiscaux relève de la seule responsabilité de l'Organisation bénéficiaire, lorsque celle-ci y est habilitée. Muz'Deen fournit un justificatif de paiement mais ne délivre pas de reçu fiscal au nom des Organisations.
+4.7. **Reçus fiscaux.** L'émission d'éventuels reçus fiscaux relève de la seule responsabilité de l'Organisation bénéficiaire, lorsque celle-ci y est habilitée. Mweema fournit un justificatif de paiement mais ne délivre pas de reçu fiscal au nom des Organisations.
 
 ## 5. Engagements de l'Utilisateur
 
@@ -60,17 +60,17 @@ L'Utilisateur s'engage à utiliser l'Application conformément à la loi et à l
 
 6.2. L'Organisation s'engage à utiliser les dons conformément à l'objet annoncé de ses collectes et à la réglementation applicable aux associations et lieux de culte.
 
-6.3. Muz'Deen procède à une vérification des Organisations avant activation des dons, sans pour autant garantir l'exactitude de l'ensemble des informations fournies par les Gestionnaires.
+6.3. Mweema procède à une vérification des Organisations avant activation des dons, sans pour autant garantir l'exactitude de l'ensemble des informations fournies par les Gestionnaires.
 
-## 7. Rôle et responsabilité de Muz'Deen
+## 7. Rôle et responsabilité de Mweema
 
-7.1. Muz'Deen agit en qualité d'**intermédiaire technique** facilitant la mise en relation et la collecte. Muz'Deen n'est pas le bénéficiaire des dons et n'est pas partie à la relation entre le Donateur et l'Organisation.
+7.1. Mweema agit en qualité d'**intermédiaire technique** facilitant la mise en relation et la collecte. Mweema n'est pas le bénéficiaire des dons et n'est pas partie à la relation entre le Donateur et l'Organisation.
 
-7.2. Muz'Deen met en œuvre les moyens raisonnables pour assurer la disponibilité et la sécurité de l'Application, sans garantie d'absence d'interruption ou d'erreur. La responsabilité de l'Éditeur ne saurait être engagée pour les dommages indirects ni pour l'usage des fonds par les Organisations.
+7.2. Mweema met en œuvre les moyens raisonnables pour assurer la disponibilité et la sécurité de l'Application, sans garantie d'absence d'interruption ou d'erreur. La responsabilité de l'Éditeur ne saurait être engagée pour les dommages indirects ni pour l'usage des fonds par les Organisations.
 
 ## 8. Propriété intellectuelle
 
-L'ensemble des éléments de l'Application (marque « Muz'Deen », logos, textes, interfaces, code) est protégé par le droit de la propriété intellectuelle et demeure la propriété exclusive de l'Éditeur ou de ses partenaires. Toute reproduction non autorisée est interdite.
+L'ensemble des éléments de l'Application (marque « Mweema », logos, textes, interfaces, code) est protégé par le droit de la propriété intellectuelle et demeure la propriété exclusive de l'Éditeur ou de ses partenaires. Toute reproduction non autorisée est interdite.
 
 ## 9. Données personnelles
 
@@ -90,4 +90,4 @@ Les présentes CGU sont régies par le **droit français**. En cas de litige, et
 
 ## 13. Contact
 
-Pour toute question relative aux présentes CGU : **contact@muzdeen.app**.
+Pour toute question relative aux présentes CGU : **contact@mweema.app**.

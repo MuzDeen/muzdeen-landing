@@ -13,7 +13,7 @@ export function Trust() {
         <SectionHeader
           eyebrow="Confiance & sécurité"
           title="L'argent est sacré. On le traite comme tel."
-          text="Double vérification, paiements gérés par Stripe, et des fonds qui ne passent jamais par le compte bancaire de Muz'Deen."
+          text="Double vérification, paiements gérés par Stripe, et des fonds qui ne passent jamais par le compte bancaire de Mweema."
           align="center"
         />
 
@@ -76,7 +76,7 @@ export function Trust() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
-            Muz&apos;Deen prélève automatiquement 5% de commission au passage — les dons ne passent jamais par son compte bancaire.
+            Mweema prélève automatiquement 5% de commission au passage — les dons ne passent jamais par son compte bancaire.
           </motion.p>
         </motion.div>
 

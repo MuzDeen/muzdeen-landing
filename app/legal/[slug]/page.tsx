@@ -24,7 +24,7 @@ export async function generateMetadata({
 
   return {
     title: doc.title,
-    description: `${doc.title} de Muz'Deen — version ${doc.version}${
+    description: `${doc.title} de Mweema — version ${doc.version}${
       doc.updated ? `, mise à jour le ${doc.updated}` : ""
     }.`,
     alternates: { canonical: `/legal/${doc.slug}` },

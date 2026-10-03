@@ -50,7 +50,7 @@ export const hero = {
   // Découpé en lignes pour l'animation séquencée (slide-up ligne par ligne).
   titleLines: ["Pour ici", "et l'au-delà."],
   subtitle:
-    "Muz'Deen permet à chacun de soutenir une mosquée ou une association en quelques secondes, et à chaque organisation de collecter plus, gérer mieux et rendre des comptes en toute transparence.",
+    "Mweema permet à chacun de soutenir une mosquée ou une association en quelques secondes, et à chaque organisation de collecter plus, gérer mieux et rendre des comptes en toute transparence.",
   primaryCta: { label: "Je suis donateur", href: "#fonctionnement" },
   secondaryCta: { label: "Inscrire mon organisation", href: "#demo" },
   stats: [
@@ -88,7 +88,7 @@ type JourneyStep = { actor: string; title: string; text: string; icon: LucideIco
 
 export const journeySteps: JourneyStep[] = [
   { actor: "Organisation", title: "Demande d'inscription", text: "La mosquée ou l'association soumet sa demande depuis l'application.", icon: Building2 },
-  { actor: "Muz'Deen", title: "Vérification & validation", text: "Notre équipe contrôle et approuve l'organisation sur le dashboard.", icon: BadgeCheck },
+  { actor: "Mweema", title: "Vérification & validation", text: "Notre équipe contrôle et approuve l'organisation sur le dashboard.", icon: BadgeCheck },
   { actor: "Manager", title: "Activation Stripe Connect", text: "Onboarding, identité et RIB : l'organisation est prête à recevoir.", icon: LockKeyhole },
   { actor: "Organisation", title: "QR codes générés", text: "Affichés sur la porte, le comptoir, une affiche ou un écran TV.", icon: QrCode },
   { actor: "Donateur", title: "Scan & don", text: "Il choisit son montant et paie en carte, Apple Pay ou Google Pay.", icon: ScanLine },
@@ -117,13 +117,13 @@ type FlowNode = { title: string; text: string; icon: LucideIcon };
 
 export const moneyFlow: FlowNode[] = [
   { title: "Donateur", text: "Paie en toute sécurité, carte ou wallet mobile.", icon: HandHeart },
-  { title: "Stripe", text: "Traite le paiement. Aucune donnée de carte chez Muz'Deen.", icon: CreditCard },
+  { title: "Stripe", text: "Traite le paiement. Aucune donnée de carte chez Mweema.", icon: CreditCard },
   { title: "Organisation", text: "Reçoit directement les fonds sur son compte Stripe.", icon: Landmark },
 ];
 
 export const trustItems: FlowNode[] = [
-  { icon: ShieldCheck, title: "Double vérification", text: "L'organisation est validée par l'équipe Muz'Deen, puis par Stripe (identité, RIB) avant de pouvoir recevoir le moindre don." },
-  { icon: BanknoteArrowUp, title: "Jamais sur nos comptes", text: "Stripe encaisse le don et le reverse automatiquement sur le compte de l'organisation. Les fonds ne passent jamais par le compte bancaire de Muz'Deen." },
+  { icon: ShieldCheck, title: "Double vérification", text: "L'organisation est validée par l'équipe Mweema, puis par Stripe (identité, RIB) avant de pouvoir recevoir le moindre don." },
+  { icon: BanknoteArrowUp, title: "Jamais sur nos comptes", text: "Stripe encaisse le don et le reverse automatiquement sur le compte de l'organisation. Les fonds ne passent jamais par le compte bancaire de Mweema." },
   { icon: LockKeyhole, title: "Paiements sécurisés", text: "Stripe gère l'intégralité des paiements selon les standards bancaires les plus exigeants." },
   { icon: ReceiptText, title: "Transparence totale", text: "Reçu instantané pour le donateur, suivi en temps réel et objectifs affichés pour la communauté." },
 ];
@@ -138,7 +138,7 @@ export const pricing = {
     // Répartition illustrative pour un don de 10€.
     breakdown: [
       { label: "Frais Stripe", amount: 0.4, note: "Traitement du paiement", tone: "muted" as const },
-      { label: "Commission Muz'Deen", amount: 0.5, note: "5% du don", tone: "accent" as const },
+      { label: "Commission Mweema", amount: 0.5, note: "5% du don", tone: "accent" as const },
       { label: "Reçu par l'organisation", amount: 9.1, note: "Versé directement", tone: "primary" as const },
     ],
   },
@@ -173,7 +173,7 @@ export const dashboardStats = [
 export const ramadan = {
   eyebrow: "Le mois béni",
   title: "Le Ramadan, votre plus grand moment de collecte.",
-  text: "Pendant le Ramadan, les dons sont multipliés par 5 à 10. Muz'Deen vous accompagne avec des campagnes spéciales, des objectifs affichés en temps réel et des notifications quotidiennes pour mobiliser votre communauté.",
+  text: "Pendant le Ramadan, les dons sont multipliés par 5 à 10. Mweema vous accompagne avec des campagnes spéciales, des objectifs affichés en temps réel et des notifications quotidiennes pour mobiliser votre communauté.",
   highlights: [
     { value: "×5 à ×10", label: "L'intensité des dons pendant le mois" },
     { value: "30–40%", label: "Des dons annuels concentrés sur cette période" },
@@ -199,20 +199,20 @@ export const faqs = [
   {
     question: "Les paiements sont-ils sécurisés ?",
     answer:
-      "Oui. L'intégralité des paiements est traitée par Stripe, l'un des standards mondiaux du paiement en ligne. Aucune donnée de carte bancaire n'est stockée par Muz'Deen.",
+      "Oui. L'intégralité des paiements est traitée par Stripe, l'un des standards mondiaux du paiement en ligne. Aucune donnée de carte bancaire n'est stockée par Mweema.",
   },
   {
     question: "Comment fonctionne la commission ?",
     answer:
-      "Muz'Deen prélève 5% sur chaque don reçu, automatiquement. Il n'y a aucun abonnement ni frais fixe : vous ne payez que si vous collectez. Les frais de paiement Stripe sont aussi déduits, comme pour tout paiement par carte. Le donateur, lui, paie exactement le montant qu'il a choisi.",
+      "Mweema prélève 5% sur chaque don reçu, automatiquement. Il n'y a aucun abonnement ni frais fixe : vous ne payez que si vous collectez. Les frais de paiement Stripe sont aussi déduits, comme pour tout paiement par carte. Le donateur, lui, paie exactement le montant qu'il a choisi.",
   },
   {
-    question: "Muz'Deen détient-il l'argent des dons ?",
+    question: "Mweema détient-il l'argent des dons ?",
     answer:
-      "Non. Stripe encaisse le paiement et reverse automatiquement le don, frais et commission déduits, sur le compte Stripe de l'organisation. Muz'Deen n'est ni une banque ni un établissement de paiement : les dons ne passent jamais par notre compte bancaire.",
+      "Non. Stripe encaisse le paiement et reverse automatiquement le don, frais et commission déduits, sur le compte Stripe de l'organisation. Mweema n'est ni une banque ni un établissement de paiement : les dons ne passent jamais par notre compte bancaire.",
   },
   {
-    question: "Quelles organisations peuvent rejoindre Muz'Deen ?",
+    question: "Quelles organisations peuvent rejoindre Mweema ?",
     answer:
       "Les mosquées, les associations de cours de Coran, les associations musulmanes, humanitaires et culturelles. Chaque organisation est vérifiée par notre équipe avant d'être mise en ligne.",
   },
